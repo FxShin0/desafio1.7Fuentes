@@ -1,0 +1,45 @@
+p {
+  font-family: Proza Libre;
+  line-height: 30px;
+}
+.pfp {
+  border-radius: 10em;
+  height: 100px;
+}
+h1 {
+  font-family: Pt serif;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+  height: 40px;
+}
+h2 {
+  font-family: Pt serif;
+}
+.subtitulo {
+  font-family: Merriweather;
+}
+.autor {
+  font-family: Merriweather;
+  color: blue;
+  font-weight: bold;
+}
+.link {
+  text-decoration: none;
+}
+.diario {
+  font-family: Proza Libre;
+  color: grey;
+  font-weight: bold;
+}
+.descimg {
+  font-style: italic;
+}
+span {
+  font-weight: bolder;
+}
+.amarillo {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
