@@ -17,6 +17,11 @@ h1 {
 h2 {
   font-family: Pt serif;
 }
+.image {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
 .subtitulo {
   font-family: Merriweather;
 }
