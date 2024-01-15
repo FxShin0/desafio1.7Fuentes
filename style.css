@@ -62,7 +62,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   max-height: 70px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
 }
 .sec {
