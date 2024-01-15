@@ -8,11 +8,17 @@ p {
 }
 h1 {
   font-family: Pt serif;
-  text-align: center;
+  /* text-align: center; */
   color: blue;
   font-weight: bold;
   font-size: 50px;
   height: 40px;
+}
+.titulo {
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Pt serif;
 }
 h2 {
   font-family: Pt serif;
@@ -29,14 +35,16 @@ h2 {
   font-family: Merriweather;
   color: blue;
   font-weight: bold;
+  line-height: 0px;
 }
-.link {
+a {
   text-decoration: none;
 }
 .diario {
   font-family: Proza Libre;
   color: grey;
   font-weight: bold;
+  line-height: 0px;
 }
 .descimg {
   font-style: italic;
@@ -48,4 +56,39 @@ span {
   text-decoration: underline;
   text-decoration-color: yellow;
   text-decoration-thickness: 3px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 70px;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+.sec {
+  margin-top: 13px;
+}
+.iniciar {
+  border-style: solid;
+  padding: 3px;
+  border-radius: 0.3rem;
+}
+.suscripcion {
+  padding: 3px;
+  background-color: yellow;
+  font-weight: bold;
+}
+.black {
+  color: black;
+}
+.flexbox {
+  display: flex;
+  align-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: 100px;
+  flex-wrap: nowrap;
 }
