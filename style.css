@@ -6,14 +6,6 @@ p {
   border-radius: 10em;
   height: 100px;
 }
-h1 {
-  font-family: Pt serif;
-  /* text-align: center; */
-  color: blue;
-  font-weight: bold;
-  font-size: 50px;
-  height: 40px;
-}
 .titulo {
   color: blue;
   font-weight: bold;
@@ -62,7 +54,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   max-height: 70px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-content: center;
 }
 .sec {
@@ -90,5 +82,9 @@ span {
   flex-direction: column;
   justify-content: space-around;
   max-height: 100px;
+  flex-wrap: nowrap;
+}
+.nowrap {
+  flex: display;
   flex-wrap: nowrap;
 }
